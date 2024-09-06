@@ -1,0 +1,72 @@
+.head {
+    display: flex;
+    position:relative ;
+    top: 160px;
+    float: left;
+    left: 130px;
+    color: rgb(5, 5, 233);
+    
+    
+}
+.fb_logo{
+    height: 100px;
+    width: auto;
+}
+h2{
+    position:relative;
+    /* float:left; */
+    top:250px;
+    left: -150px; 
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    unicode-bidi: isolate;
+}
+
+.bc .page{
+    display: flex;
+    position: relative;
+    float: right;
+    right: 255px;
+    top: 100px;
+    border: 1px solid black;
+    height: 50px;
+    box-sizing: border-box;
+    width: 300px;
+    background-origin: border-box;
+    vertical-align: middle;
+    font-size: 13px;
+    border-radius: 5px;
+    padding: 0 20px;
+        
+}
+.pas .pass{
+    display: inline-block;
+    position: relative;
+    float:right;
+    left: 50px;
+    top: 170px;
+    background-origin: padding-box;
+    /* background-clip: border-box; */
+    border: 1px solid black;
+    height: 40px;
+    width: 261px;
+    vertical-align: middle;
+    text-align: start;
+    border-radius: 5px;
+    padding: 0 20px;
+}input:focus,input:valid{
+    color: aqua;
+    border: 1px solid aqua;
+}
+.butt button{
+    display: inline-block;
+    position:relative;
+    background-color: blue;
+    color:white;
+    width: 300px;
+    float:right;
+    height: 30px;
+    top: 300px;
+    left: 300px;
+}
+
